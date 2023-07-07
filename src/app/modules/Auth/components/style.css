@@ -1,0 +1,122 @@
+.edit, .submit{
+  font-size: 11px;
+  cursor: pointer;
+}
+.edit:hover, .submit:hover{
+  transform: scale(1.07);
+}
+.wrapper-method-sent-otp{
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.wrapper-method-sent-otp:hover{
+  transform: scale(1.05);
+}
+.whatsapp{
+  box-shadow: 0 0 3px 0.2px grey;
+}
+.gmail{
+  box-shadow: 0 0 3px 0.2px grey;
+}
+.react-date-picker__wrapper{
+  padding: 3px 25px;
+  border-radius: 6px;
+  border: thin solid rgb(211, 206, 206)
+}
+
+.regrads {
+  width:150px;
+}
+.idn {
+display:none;
+}
+.posisi-slide {
+  float:right;
+  position:absolute;
+  margin-left: 75%;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 19px;
+  float:right;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2196F3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ca2222;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+/*------ ADDED CSS ---------*/
+.on
+{
+  display: none;
+}
+
+.on, .off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+
+/*--------- END --------*/
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;}
+
+  #mainFrameTwo, #divFrameTwo  {
+    display: none;
+  }
